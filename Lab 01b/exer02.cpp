@@ -8,7 +8,7 @@ maior ou igual a 7.5 e menor que 9	B
 maior ou igual a 6 e menor que 7.5	C
 maior ou igual a 4 e menor que 6	D
 menor que 4	E */
-  int nota[4];
+  float nota[4];
   
   for (int w=0;w<4;w++) {
     if(w < 3) {
@@ -19,7 +19,7 @@ menor que 4	E */
     cin >> nota[w];
   }
 
-  int ma = (nota[0] + nota[1]*2 + nota[2]*3 + nota[3])/7; 
+  float ma = (nota[0] + nota[1]*2 + nota[2]*3 + nota[3])/7; 
 
   if( ma >= 9 ) {
     cout << "Nota A";
