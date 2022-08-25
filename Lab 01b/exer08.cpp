@@ -1,6 +1,4 @@
 /* 8. Crie um programa capaz de criar a transposta de uma matriz. */
-
-/*
 #include <iostream>
 
 using namespace std;
@@ -19,4 +17,4 @@ int main() {
   }
   
   return 0;
-} */
+}
