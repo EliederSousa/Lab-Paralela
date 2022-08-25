@@ -1,4 +1,4 @@
-/* Crie uma função capaz de somar os elementos das linhas L1 e L2 de uma matriz. O resultado deve ser colocado na linha L2. Faça o mesmo com a multiplicação. 
+// Crie uma função capaz de somar os elementos das linhas L1 e L2 de uma matriz. O resultado deve ser colocado na linha L2. Faça o mesmo com a multiplicação.
 #include <iostream>
 
 using namespace std;
@@ -44,4 +44,4 @@ int main() {
     cout << "\n";
   }
   return 0;
-} */
+}
