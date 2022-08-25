@@ -1,5 +1,4 @@
 /* Crie uma função capaz de multiplicar uma linha de uma matriz por um dado número. Faça o mesmo para uma coluna. */
-/*
 #include <iostream>
 
 using namespace std;
@@ -20,4 +19,3 @@ int main() {
   
   return 0;
 }
- */
