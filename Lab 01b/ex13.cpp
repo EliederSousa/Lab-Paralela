@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -15,4 +15,4 @@ int main() {
   // Saída: abdefghij
 	cout << str;
 	return 0;
-}*/
+}
