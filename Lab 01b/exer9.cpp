@@ -1,5 +1,5 @@
 /* Crie uma função capaz de substituir todos os números negativos de uma matriz por seu módulo. */
-/* #include <iostream>
+#include <iostream>
 #include <cmath>
 
 using namespace std;
@@ -25,4 +25,4 @@ int main() {
   }
   
   return 0;
-} */
+}
