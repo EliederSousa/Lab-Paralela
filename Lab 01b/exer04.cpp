@@ -22,7 +22,7 @@ void ordemalf(char nome1[], char nome2[]){
 }
 
 int main() {
-    4. Crie um progama capaz de ler dois nomes de pessoas e imprimi-los em ordem alfabética. Faça isto com string de C e de C++ 
+    // 4. Crie um progama capaz de ler dois nomes de pessoas e imprimi-los em ordem alfabética. Faça isto com string de C e de C++ 
 
   char nome1 [100];
   char nome2 [100];
