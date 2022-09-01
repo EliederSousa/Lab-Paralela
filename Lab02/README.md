@@ -1,6 +1,6 @@
-Compilamos usando {gcc main.c -o main} no windows e o tempo gasto para rodar foi em media 16 Milissegundos  
+Compilamos usando {gcc main.c -o main} no windows e o tempo gasto para rodar foi em média 16 Milissegundos  
   
-testamos com o fatorial de 20 e resultou em:   
+Testamos com o fatorial de 20 e resultou em:   
 PS C:\Users\MariEli\Desktop> .\main.exe 20    
 2432902008176640000    
 PS C:\Users\MariEli\Desktop> Measure-Command {.\main.exe 20}  
