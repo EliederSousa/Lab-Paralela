@@ -1,1 +1,1 @@
-Compilamos no VsCode este programa para calcular o fatorial, não conseguimos achar e implementar threads, afim de obter melhor performance.
+- Compilamos no VsCode este programa para calcular o fatorial, não conseguimos achar e implementar threads, afim de obter melhor performance.
