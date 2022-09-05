@@ -4,14 +4,14 @@ O programa cria por meio do fork() e shmget() um processo filho. O valor (5) é 
 
 ### Saída:
 
-Servidor iniciado.
-Servidor conectado à memória compartilhada.
-Valor 5 foi colocado na memória compartilhada.
-Criando um processo filho por fork().
----- Processo filho iniciado
----- Valor armazenado: 5
----- Valor parcial após o processo filho fazer os cálculos: 21
----- Finalizando processo filho
-Servidor detectou o término do processo filho.
-Valor final na memória: 41
-Servidor finalizado.
+Servidor iniciado.  
+Servidor conectado à memória compartilhada.  
+Valor 5 foi colocado na memória compartilhada.  
+Criando um processo filho por fork().  
+---- Processo filho iniciado  
+---- Valor armazenado: 5  
+---- Valor parcial após o processo filho fazer os cálculos: 21  
+---- Finalizando processo filho  
+Servidor detectou o término do processo filho.  
+Valor final na memória: 41  
+Servidor finalizado.  
