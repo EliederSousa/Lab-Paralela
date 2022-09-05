@@ -32,7 +32,7 @@ void  main(int  argc, char *argv[]) {
     printf("Servidor conectado à memória compartilhada.\n");
     
     ShmPTR[0] = atoi(argv[1]);
-    printf("Valor %d foi colocado na memória compartilhada.", ShmPTR[0]);
+    printf("Valor %d foi colocado na memória compartilhada.\n", ShmPTR[0]);
     
     printf("Criando um processo filho por fork().\n");
     pid = fork();
@@ -62,5 +62,6 @@ void processoFilho(int SharedMem[]) {
     printf("---- Valor armazenado: %d\n", SharedMem[0]);
     SharedMem[0] *= 4;
     SharedMem[0] += 1;
+    printf("---- Valor parcial após o processo filho fazer os cálculos: %d\n", SharedMem[0]);
     printf("---- Finalizando processo filho\n");
 }
