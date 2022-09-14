@@ -19,7 +19,7 @@ Iniciando a thread 1.
 Thread 1 finalizada.
 
 
-### Resultado final das operações:  
+Resultado final das operações:  
 Y[0] = 110.0  
 Y[1] = 278.0  
 Y[2] = 220.0  
