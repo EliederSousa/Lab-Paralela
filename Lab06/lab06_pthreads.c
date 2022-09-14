@@ -35,8 +35,6 @@ int main(int argc, char* argv[]) {
         // Um ponteiro para os manipuladores das threads (uma array de threads).
         pthread_t* thread_handles;
         
-        
-        
         // Alocação de memória para as threads:
         // número de threads * o tamanho de cada uma delas
         thread_handles = malloc(numeroDeThreads * sizeof(pthread_t));
