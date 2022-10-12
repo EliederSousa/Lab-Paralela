@@ -1,0 +1,2 @@
+- Executando o programa inicial:  
+  
