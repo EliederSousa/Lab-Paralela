@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int fatorial( int n ) {
     int w;
@@ -13,10 +14,14 @@ int fatorial( int n ) {
     return result;
 }
 
-int main()
-{
+int main( int argc, char* argv[] ) {
     int n;
-    int m = 12;
+    int m;
+    if( argc > 0 ) {
+   	 m = atoi(argv[1]);
+    } else {
+	 m = 100000;
+    }
     double result = 0;
     for ( n=0; n<m; n++ ) {
         result += 1 / (float)fatorial(n);
