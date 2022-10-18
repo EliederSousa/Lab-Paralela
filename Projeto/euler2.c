@@ -5,14 +5,14 @@
 void* somaFracao( void* rank );
 
 #define NTHREADS 2
-long double sum = 0;
+double sum = 0;
 int n;
 
-long double fatorial( int n ) {
+int fatorial( int n ) {
     if (n == 0) return 1;
     
     int w;
-    long double result = 1;
+    float result = 1;
     
     for ( w=1; w<=n; w++ )
         result *= w;
@@ -43,7 +43,7 @@ int main( int argc, char* argv[] ) {
     }
     
     free(thread_handles);
-    printf( "\nE com %d interacoes: %.18Lf\n", n, sum );
+    printf( "\nE com %d interacoes: %lf\n", n, sum );
     return 0;
 }
 
@@ -57,6 +57,6 @@ void* somaFracao( void* rank ) {
     long long my_last_i = my_first_i + my_n;
     
     for ( i=my_first_i; i < my_last_i; i++ )
-        sum += 1.0 / fatorial(i);
+        sum += 1.0 / (float)fatorial(i);
 
 }
