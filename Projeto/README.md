@@ -20,7 +20,7 @@
 # Projeto versão 2 (paralela)  
 - Executando o projeto versão 2 (paralela)    
   
-![image](https://user-images.githubusercontent.com/74507357/196522395-686f65ff-44e7-4ba6-bd64-953287a9c3e0.png)
+![image](https://user-images.githubusercontent.com/74507357/196548073-f59e9251-e660-4e4e-ad66-c739c6905d13.png)
   
   
 - Tempo de execução do projeto versão 2 (paralela)  
