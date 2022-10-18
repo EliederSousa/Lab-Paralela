@@ -25,7 +25,11 @@
   
 - Tempo de execução do projeto versão 2 (paralela)  
   
-![image](https://user-images.githubusercontent.com/74507357/196548448-d5686a99-adeb-4d46-91f6-5737efe20d56.png)
+![image](https://user-images.githubusercontent.com/74507357/196548448-d5686a99-adeb-4d46-91f6-5737efe20d56.png)  
+  
+# Speedup (Projeto versão 2 - Projeto versão serial)  
+00:25:32.617 - 00:20:58.337 = 00:04:33.720  
+- Tivemos um ganho de 4 minutos 33 segundos e 720 milisegundos fazendo o código paralelo
 
 
 
