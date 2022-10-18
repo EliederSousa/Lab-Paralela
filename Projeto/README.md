@@ -25,7 +25,7 @@
   
 - Tempo de execução do projeto versão 2 (paralela)  
   
-![image](https://user-images.githubusercontent.com/74507357/196521649-0b55d77a-870c-4af3-b109-a5e075974085.png)
+![image](https://user-images.githubusercontent.com/74507357/196548448-d5686a99-adeb-4d46-91f6-5737efe20d56.png)
 
 
 
