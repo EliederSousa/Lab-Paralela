@@ -8,9 +8,14 @@
 ![image](https://user-images.githubusercontent.com/74507357/196522055-57e24104-a123-489f-90a5-51726148edf4.png) 
 
 # Projeto versão serial  
-- Executando o projeto versão serial com 1000000 iterações  
+- Executando o projeto versão serial   
 
 ![image](https://user-images.githubusercontent.com/74507357/196529441-37dc4a5c-e8f1-47c3-b105-d81244e1531d.png)  
+  
+- Tempo de execução do projeto versão serial  
+
+![image](https://user-images.githubusercontent.com/74507357/196535813-37f5e2b4-6459-4fee-9295-7c4c046490ba.png)
+
 
 # Projeto versão 2 (paralela)  
 - Executando o projeto versão 2 (paralela)    
