@@ -8,7 +8,8 @@
 
 - LEGENDA:   
 
-![image](https://user-images.githubusercontent.com/74507357/197428629-35298324-d85d-4eed-86ef-3c338aee6b4e.png)  
+![image](https://user-images.githubusercontent.com/74507357/197649238-f17c4743-6856-44fa-861b-8620acbf5fd1.png)
+ 
   
 
 ## 2) Qual é o limite inferior do tempo de execução paralela para cada decomposição?
