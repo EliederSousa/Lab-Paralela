@@ -1,6 +1,7 @@
 ## 1) Quais são as tarefas no caminho crítico para cada grafo de dependência? Para responder a pergunta, apresente um DAG do seu projeto.  
   
-
+- Caminho crítico: 1 - 7 - 9 - 10 - 11 - 12 - 13 - 14 - 15 - 16 - 17 - 18 - 19 - 20 - 21 - 22 - 23 - 24 - 25 - 26 - 27 - 28 - 29 - 30 - 31 - 32 - 33 - 34 - 35
+  
 ![dag](https://user-images.githubusercontent.com/16262291/197428542-45bff0a7-80cc-43cf-a797-6221cfb2c29c.png)  
   
 - LEGENDA:   
