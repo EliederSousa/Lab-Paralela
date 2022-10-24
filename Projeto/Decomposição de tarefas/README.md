@@ -10,8 +10,16 @@
 
 ![image](https://user-images.githubusercontent.com/74507357/197428629-35298324-d85d-4eed-86ef-3c338aee6b4e.png)  
   
-  
+
+## 2) Qual é o limite inferior do tempo de execução paralela para cada decomposição?
+- R: No nosso caso em que estamos usando 2 threads no mínimo para a execução do código, teremos 2 tarefas concorrentes o que dá um limite inferior igual a 2.
   
   
 ## 3) Quantos processadores são necessários para se conseguir o tempo mínimo de execução?  
-- R: 2 processadores é o mínimo.
+- R: 2 processadores é o mínimo pois temos no mínimo 2 threads.
+
+## 4) Qual é o grau máximo de concorrência?
+- R: O grau máximo depende da granularidade de tarefas executando em cada thread. No nosso projeto, ainda não subdividimos as threads em tarefas menores, portanto nosso grau máximo de concorrência é igual a 2 também (porém podemos aumentar futuramente).
+
+## 5) Qual é o paralelismo médio?
+- R: ( 2 + 2 ) / 2 = 2 :)
