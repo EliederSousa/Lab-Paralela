@@ -6,5 +6,10 @@
   
 - LEGENDA:   
 
-![image](https://user-images.githubusercontent.com/74507357/197428629-35298324-d85d-4eed-86ef-3c338aee6b4e.png)
-
+![image](https://user-images.githubusercontent.com/74507357/197428629-35298324-d85d-4eed-86ef-3c338aee6b4e.png)  
+  
+  
+  
+  
+## 3) Quantos processadores são necessários para se conseguir o tempo mínimo de execução?  
+- R: 2 processadores é o mínimo.
