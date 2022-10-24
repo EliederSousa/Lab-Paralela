@@ -2,7 +2,7 @@
   
 - Caminho crítico: 1 - 7 - 9 - 10 - 11 - 12 - 13 - 14 - 15 - 16 - 17 - 18 - 19 - 20 - 21 - 22 - 23 - 24 - 25 - 26 - 27 - 28 - 29 - 30 - 31 - 32 - 33 - 34 - 35
 
-(A parte em verde é a o pedaço de código paralelizável)
+(A parte em verde é a do pedaço de código paralelizável)
   
 ![dag2](https://user-images.githubusercontent.com/16262291/197430646-ef7ce20b-2081-4274-93b3-3809539c800a.png)
 
