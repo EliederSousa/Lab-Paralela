@@ -20,8 +20,7 @@
 
 
 ## 4) Qual é o grau máximo de concorrência?
-- R: O grau máximo depende da granularidade de tarefas executando em cada thread. No nosso projeto, ainda não subdividimos as threads em tarefas menores, portanto 
-- nosso grau máximo de concorrência é igual a 2 também (porém podemos aumentar futuramente).
+- R: O grau máximo depende da granularidade de tarefas executando em cada thread. No nosso projeto, ainda não subdividimos as threads em tarefas menores, portanto nosso grau máximo de concorrência é igual a 2 também (porém podemos aumentar futuramente).
 
 
 ## 5) Qual é o paralelismo médio?
