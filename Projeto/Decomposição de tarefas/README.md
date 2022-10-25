@@ -4,7 +4,7 @@
 
 (As partes coloridas são as threads executando em paralelo)
   
-![Diagrama sem nome drawio(1)](https://user-images.githubusercontent.com/16262291/197656258-25363376-9bae-402c-bda3-8743aa2da72b.png)
+![Diagrama sem nome drawio(2)](https://user-images.githubusercontent.com/16262291/197656822-52c27c87-c2a1-481b-b0f9-8456d65cc0f7.png)
 
 - LEGENDA:   
 
