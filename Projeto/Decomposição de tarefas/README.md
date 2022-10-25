@@ -4,7 +4,7 @@
 
 (A parte em verde é a do pedaço de código paralelizável)
   
-![dag2](https://user-images.githubusercontent.com/16262291/197430646-ef7ce20b-2081-4274-93b3-3809539c800a.png)
+![Diagrama sem nome drawio(1)](https://user-images.githubusercontent.com/16262291/197656258-25363376-9bae-402c-bda3-8743aa2da72b.png)
 
 - LEGENDA:   
 
