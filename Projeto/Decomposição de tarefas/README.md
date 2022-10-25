@@ -2,7 +2,7 @@
   
 - Caminho crítico: 1 - 7 - 9 - 10 - 11 - 12 - 13 - 14 - 15 - 16 - 17 - 18 - 19 - 20 - 21 - 22 - 23 - 24 - 25 - 26 - 27 - 28 - 29 - 30 - 31 - 32 - 33 - 34 - 35
 
-(A parte em verde é a do pedaço de código paralelizável)
+(As partes coloridas são as threads executando em paralelo)
   
 ![Diagrama sem nome drawio(1)](https://user-images.githubusercontent.com/16262291/197656258-25363376-9bae-402c-bda3-8743aa2da72b.png)
 
