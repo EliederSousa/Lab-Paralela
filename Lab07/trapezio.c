@@ -20,9 +20,9 @@ int main(int argc, char* argv[]){
     scanf("%lf %lf %d", &a, &b, &n);
     #pragma omp parallel num_threads(thread_count)
     Trap(a, b, n, &global_result);
-
-    printf("With n = %d trapezoids, our estimate\n", n);
+    printf("With n = %d trapezoids, our estimate\n", n);	
     printf("of the integral from %f to %f = %.14e\n", a, b, global_result);
+
     return 0;
 }
 
@@ -32,11 +32,12 @@ void Trap ( double a, double b, int n, double* global_result_p ) {
     int i, local_n;
     int my_rank = omp_get_thread_num();
     int thread_count = omp_get_num_threads();
+    printf("Thread %d iniciando.\n", my_rank);
 
     h = (b-a)/n;
     local_n = n/thread_count;
     local_a = a + my_rank * local_n * h;
-    local_b = local_a + local_n * n;
+    local_b = local_a + local_n * h;
     my_result = (f(local_a) + f(local_b)) / 2.0;
 
     for (i = 1; i <= local_n - 1; i++) {
@@ -49,3 +50,4 @@ void Trap ( double a, double b, int n, double* global_result_p ) {
     #pragma omp critical
     *global_result_p += my_result;
 }
+
