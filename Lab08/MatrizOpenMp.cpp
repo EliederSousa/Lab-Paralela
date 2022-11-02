@@ -20,17 +20,17 @@ int main(int argc, char* argv[]) {
     {
         #pragma omp critical
         {
-            global_result[0] += multiplicarMatriz( A, X, 0);
-            global_result[1] += multiplicarMatriz( A, X, 1);
-            global_result[2] += multiplicarMatriz( A, X, 2);
-            global_result[3] += multiplicarMatriz( A, X, 3);
+            global_result[0] += multiplicarMatriz( A, X, 0 ) / numThreads;
+            global_result[1] += multiplicarMatriz( A, X, 1 ) / numThreads;
+            global_result[2] += multiplicarMatriz( A, X, 2 ) / numThreads;
+            global_result[3] += multiplicarMatriz( A, X, 3 ) / numThreads;
         }
     }
 
-    std::cout << "Matriz resultado: " <<    global_result[0] << " - " << \
-                                            global_result[1] << " - " << \
-                                            global_result[2] << " - " << \
-                                            global_result[3] << std::endl;
+    std::cout << "Matriz resultado: " <<    "[" << global_result[0] << "] " << \
+                                            "[" << global_result[1] << "] " << \
+                                            "[" << global_result[2] << "] " << \
+                                            "[" << global_result[3] << "] " << std::endl;
     
 
     return 0;
@@ -38,12 +38,10 @@ int main(int argc, char* argv[]) {
 
 double multiplicarMatriz( double a[][n], double x[], int id ) {
     int idThread = omp_get_thread_num();
-    // int iteracoes = numThreads/omp_get_num_threads();
     
     double y = 0.0;
     for (int j = 0; j < 4; j++) {
         y += a[id][j] * x[j];
     }
-    printf("Resultado da thread %d = %f\n", idThread, y);
     return y;
 }
