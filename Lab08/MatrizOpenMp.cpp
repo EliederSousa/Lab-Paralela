@@ -16,10 +16,7 @@ int main(int argc, char* argv[]) {
     int thread_count = numThreads;
 
     #pragma omp parallel num_threads(thread_count) \
-        reduction(+:global_result[0]) \
-        reduction(+:global_result[1]) \
-        reduction(+:global_result[2]) \
-        reduction(+:global_result[3])
+        reduction(+:global_result)
     {
         #pragma omp critical
         {
@@ -41,12 +38,12 @@ int main(int argc, char* argv[]) {
 
 double multiplicarMatriz( double a[][n], double x[], int id ) {
     int idThread = omp_get_thread_num();
-    int iteracoes = numThreads/omp_get_num_threads();
+    // int iteracoes = numThreads/omp_get_num_threads();
     
     double y = 0.0;
     for (int j = 0; j < 4; j++) {
-        y += a[n][j] * x[j];
+        y += a[id][j] * x[j];
     }
-
+    printf("Resultado da thread %d = %f\n", idThread, y);
     return y;
 }
