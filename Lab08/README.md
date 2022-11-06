@@ -9,3 +9,5 @@
 ---
 
 __OBS: Foi pedido pelo professor para realizarmos testes em máquinas de 1, 2, 4 e 8 núcleos. Porém a plataforma AWS Student não nos dá a autorização para criarmos máquinas com mais de 2 núcleos.__
+![image](https://user-images.githubusercontent.com/74507357/200196347-cd73da85-484b-43ed-9fb0-60f4b5189a5c.png)
+
