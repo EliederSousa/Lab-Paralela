@@ -3,7 +3,7 @@
 #include <omp.h>
 #include <math.h>
 
-void Trap( double a, double b, int n, double* global_result_p );
+void Trap( double a, double b, long int n, double* global_result_p );
 
 double f(double x) {
 	return exp(x);
@@ -12,21 +12,24 @@ double f(double x) {
 int main(int argc, char* argv[]){
     double global_result = 0.0;
     double a, b;
-    int n;
+    long int n;
     int thread_count;
 
     thread_count = strtol(argv[1], NULL, 10);
-    printf("Enter a, b, and n\n");
-    scanf("%lf %lf %d", &a, &b, &n);
+    //printf("Enter a, b, and n\n");
+    //scanf("%lf %lf %d", &a, &b, &n);
+    a = 0;
+    b = 1;
+    n = 1000000000;
     #pragma omp parallel num_threads(thread_count)
     Trap(a, b, n, &global_result);
-    printf("With n = %d trapezoids, our estimate\n", n);	
+    printf("With n = %ld trapezoids, our estimate\n", n);	
     printf("of the integral from %f to %f = %.14e\n", a, b, global_result);
 
     return 0;
 }
 
-void Trap ( double a, double b, int n, double* global_result_p ) {
+void Trap ( double a, double b, long int n, double* global_result_p ) {
     double h, x, my_result;
     double local_a, local_b;
     int i, local_n;
