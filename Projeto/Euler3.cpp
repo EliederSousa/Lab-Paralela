@@ -18,17 +18,13 @@ long double fatorial( int n ) {
 
 int main( int argc, char* argv[] ) {
 
-    long double eulerconstant = .0;
+    long double eulerconstant = 0.0;
     int numThread, precision;
 
-    if ( argc == 1 ) {
-        numThread = 2;
-        precision = 1000000;
-    } else if (argc == 3) {
-        numThread = strtol(argv[1], NULL, 10);
-        precision = strtol(argv[2], NULL, 10);
-    }
-
+   
+    numThread = 2;
+    precision = 1000000;
+   
     #pragma omp parallel num_threads(numThread)
     {
         int idThread = omp_get_thread_num();
@@ -43,7 +39,7 @@ int main( int argc, char* argv[] ) {
         long double temp_fatorial = fatorial(my_first_i);
         long double euler_parcial = 1.0 / temp_fatorial;
         
-        for ( i=my_first_i+1; i < my_last_i; i++ ) {
+        for ( i=my_first_i+1; i < my_last_i; i++ ) {	
             temp_fatorial *= i;
             euler_parcial += 1.0 / temp_fatorial;
         }
