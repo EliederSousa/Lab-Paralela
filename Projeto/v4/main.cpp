@@ -7,36 +7,6 @@
 #include <string>
 #include "bigint.h"
 
-int multiply(int x, int res[], int res_size) {
-    int carry = 0;
-    for (int i=0; i<res_size; i++) {
-        int prod = res[i] * x + carry;
-        res[i] = prod % 10;  
-        carry  = prod/10;    
-    }
-
-    while (carry) {
-        res[res_size] = carry%10;
-        carry = carry/10;
-        res_size++;
-    }
-    return res_size;
-}
-
-int fatorial( int *fat, int s, int n ) {
-    fat[0] = 1;
-    s = 1;
-    for ( int w=1; w<=n; w++ ) {
-        s = multiply(w, fat, s);
-    }
-    return s;
-}
-
-// Calma, só usamos isso pra saber quantos digitos temos de precisão e mais nada. kkk 
-int numDigits( int n ) {
-    return ceil( log10(sqrt(2*3.1415926535897932384*n)) + n * log10(n/exp(1)) );
-}
-
 int main() {
 	using namespace std::chrono;
   	high_resolution_clock::time_point time1 = high_resolution_clock::now();
