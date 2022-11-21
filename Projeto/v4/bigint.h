@@ -1,20 +1,3 @@
-/*
-    BigInt
-    ------
-    Arbitrary-sized integer class for C++.
-    
-    Version: 0.5.0-dev
-    Released on: 05 October 2020 23:15 IST
-    Author: Syed Faheel Ahmad (faheel@live.in)
-    Project on GitHub: https://github.com/faheel/BigInt
-    License: MIT
-*/
-/*
-    ===========================================================================
-    BigInt
-    ===========================================================================
-    Definition for the BigInt class.
-*/
 #ifndef BIG_INT_HPP
 #define BIG_INT_HPP
 
