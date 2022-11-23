@@ -4,6 +4,7 @@ Não utilizamos bibliotecas __*bigint*__ prontas para o cálculo mas criamos uma
 :page_facing_up:[213235.txt](https://raw.githubusercontent.com/EliederSousa/Lab-Paralela/main/Projeto/Final/213237.txt)  
 :page_facing_up:[711271.txt](https://raw.githubusercontent.com/EliederSousa/Lab-Paralela/main/Projeto/Final/711273.txt)  
 
+
 ![image](https://user-images.githubusercontent.com/16262291/203663238-30197d9b-3bdf-433a-9d4f-2a30b25382d4.png)
 
 
