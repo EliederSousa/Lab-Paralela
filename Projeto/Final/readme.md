@@ -8,7 +8,6 @@ Não utilizamos bibliotecas __*bigint*__ prontas para o cálculo mas criamos uma
 
 
 
-### Site da NASA:
-
+### Site da NASA:  
 https://apod.nasa.gov/htmltest/gifcity/e.2mil  
-__[Link para o arquivo](https://raw.githubusercontent.com/EliederSousa/Lab-Paralela/main/Projeto/Final/nasa.txt)__
+__[Link para o arquivo de testes da NASA](https://raw.githubusercontent.com/EliederSousa/Lab-Paralela/main/Projeto/Final/nasa.txt)__
