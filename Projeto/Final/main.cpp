@@ -331,13 +331,7 @@ int main() {
         if( w % fivePercent == 0 ) cout << floor(w/fivePercent) * 5 << "% ";
         decimals.divide( a.nonTenFactors[w] );
     }
-    /*
-    fivePercent = floor(a.factorsSize / 20);
-    for( int w=0;w<=iterations;w++ ) {
-        if( w % fivePercent == 0 ) cout << floor(w/fivePercent) * 5 << "% ";
-        decimals.divide( a.nonTenFactors[w] );
-    }
-    */
+
     ofstream myfile;
     myfile.open ( to_string(numDigits) + ".txt" );
     myfile << ("2." + decimals.toString());
