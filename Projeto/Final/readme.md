@@ -8,15 +8,17 @@ Para os testes, utilizamos o programa [HxD](https://mh-nexus.de/en/hxd/), e fize
 
 
 
-:notebook:[213235.txt](https://raw.githubusercontent.com/EliederSousa/Lab-Paralela/main/Projeto/Final/213237.txt)  
-:notebook:[711271.txt](https://raw.githubusercontent.com/EliederSousa/Lab-Paralela/main/Projeto/Final/711273.txt)  
-
-
 Comparação entre a lista da NASA com a lista de 711271 casas decimais corretas:  
 ![image](https://user-images.githubusercontent.com/16262291/203666586-4c120109-2a4c-4067-912d-8f57b030a7dc.png)
 
+---  
 
+## Resultados  
+:notebook:[213235.txt](https://raw.githubusercontent.com/EliederSousa/Lab-Paralela/main/Projeto/Final/213237.txt)  
+:notebook:[711271.txt](https://raw.githubusercontent.com/EliederSousa/Lab-Paralela/main/Projeto/Final/711273.txt)  
 
-### Site da NASA:  
+---  
+
+### Site da NASA    
 https://apod.nasa.gov/htmltest/gifcity/e.2mil  
 __[Link para o arquivo de testes da NASA](https://raw.githubusercontent.com/EliederSousa/Lab-Paralela/main/Projeto/Final/nasa.txt)__
