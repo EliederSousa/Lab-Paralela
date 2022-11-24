@@ -15,7 +15,8 @@ Comparação entre a lista da NASA com a lista de 711271 casas decimais corretas
 
 ## Resultados  
 :notebook:[213235.txt](https://raw.githubusercontent.com/EliederSousa/Lab-Paralela/main/Projeto/Final/213237.txt)  
-:notebook:[711271.txt](https://raw.githubusercontent.com/EliederSousa/Lab-Paralela/main/Projeto/Final/711273.txt)  
+:notebook:[711271.txt](https://raw.githubusercontent.com/EliederSousa/Lab-Paralela/main/Projeto/Final/711273.txt)
+:notebook:[1240915.txt](https://raw.githubusercontent.com/EliederSousa/Lab-Paralela/main/Projeto/Final/711273.txt)  
 
 ---  
 
