@@ -1,7 +1,7 @@
 Nossa versão final do projeto reside aqui. Os resultados por serem muito grandes são apresentados em arquivos de texto, onde o nome do arquivo representa a quantidade de dígitos que conseguimos em cada bateria de testes.
 Não utilizamos bibliotecas __*bigint*__ prontas para o cálculo mas criamos uma do zero. Por conta do tempo, nossa implementação __não é__ otimizada em diversos aspectos, tais como: usar uma base diferente para cálculos (binária para otimizar divisões por exemplo), implementar o [algoritmo de Karatsuba](https://en.wikipedia.org/wiki/Karatsuba_algorithm) para multiplicações com mais de 32 bytes, [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform)). 
 
-Nossa implementação foi baseada na seguinte equação::  
+Nossa implementação foi baseada na seguinte equação:  
 ![image](https://user-images.githubusercontent.com/16262291/203670620-758de7cb-3a9a-4c3d-996c-c97a9c8a026f.png)
 
 Fizemos o cálculo do fatorial utilizando 2 threads com omp critical para gravar os resultados, e armazenando os valores de cada digito em um grande vetor em uma classe BigInt. O somatório de frações tem uma propriedade peculiar em que, para cada novo denominador, ele será o MMC da soma até ele; ou seja, ao fazer N iterações, a última fração será 1/N! e o somatório terá como denominador N! também. 
