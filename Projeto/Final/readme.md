@@ -8,7 +8,11 @@ Fizemos o cálculo do fatorial utilizando 2 threads com omp critical para gravar
 Por isso, bastava apenas calcular quais eram os valores dos numeradores das frações e somá-los em sequência. Isto também foi feita de forma paralelizada porém de uma forma diferente: uma thread calcula as divisões resultando nos primeiros numeradores, e outra thread calcula as multiplicações entre N * N-1 * N-2 ... a fim de que elas se encontrem. O resultado então é guardado em uma variável BigInt e por fim é feita a divisão final entre o numerador e o denominador.
 
 
-Para os testes, utilizamos o programa [HxD](https://mh-nexus.de/en/hxd/), e fizemos uma comparação entre nossos arquivos e a lista da NASA (disponível abaixo), utilizando o comando "Comparação de dados -> Comparar" (CTRL+K).
+Para os testes, utilizamos uma máquina com Windows 11 com a IDE VSCode. O processador é mostrado abaixo:  
+
+![image](https://user-images.githubusercontent.com/16262291/203770162-f93864c5-5fce-4366-b441-97847b3015b5.png)
+
+A comparação dos dados foi feita pelo programa [HxD](https://mh-nexus.de/en/hxd/), e fizemos uma comparação entre nossos arquivos e a lista da NASA (disponível abaixo), utilizando o comando "Comparação de dados -> Comparar" (CTRL+K).
 
 
 ![image](https://user-images.githubusercontent.com/16262291/203666393-084c8295-2f30-400c-9888-e55ba8c683cb.png)  
