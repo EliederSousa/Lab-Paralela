@@ -5,6 +5,7 @@ Não utilizamos bibliotecas __*bigint*__ prontas para o cálculo mas criamos uma
 :notebook:[711271.txt](https://raw.githubusercontent.com/EliederSousa/Lab-Paralela/main/Projeto/Final/711273.txt)  
 
 
+Comparação entre a lista da NASA com a lista de 711271 casas decimais corretas.  
 ![image](https://user-images.githubusercontent.com/16262291/203663238-30197d9b-3bdf-433a-9d4f-2a30b25382d4.png)
 
 
